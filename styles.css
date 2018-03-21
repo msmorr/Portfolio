@@ -10,13 +10,20 @@ body {
   min-height: 100px;
 }
 
-#myname {
-  font-size: 18px;
-  color: black;
+.site-title {
+  font-size: 30px;
+  color: white;
+  background-color: #0d1d38;
   font-family: 'Anton', sans-serif;
-  float: left;
-  padding: 17px 25px;
-  text-align: center;
+  padding: 10px 10px 0px 20px;
+  text-align: left;
+}
+
+#subtitle {
+  font-size: 14px;
+  font-family: Arial, Helvetica;
+  float: none;
+  padding: 0px 0px 10px 20px;
 }
 
 .topnav {
