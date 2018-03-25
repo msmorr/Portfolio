@@ -1,15 +1,41 @@
 body {
   background-color: #ffffff;
   color: #3d3d3d;
-  font-family: Roboto, Arial, Helvetica;
+  font-family: 'Open Sans', sans-serif, Helvetica;
   margin: 0px;
+  font-size: 20px;
 }
 
+p {
+  line-height: 26px;
+  display: block;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height:40px;
+}
+/* center align using margin: 0 auto */
 .container {
   position: relative;
   min-height: 100px;
+  margin: 2em;
 }
-
+/*
+.content-box {
+  padding: 10px;
+  background-color: #b2cfff;
+}
+*/
 .site-title {
   font-size: 30px;
   color: white;
@@ -21,7 +47,7 @@ body {
 
 #subtitle {
   font-size: 14px;
-  font-family: Arial, Helvetica;
+  font-family: 'Open Sans', sans-serif;
   float: none;
   padding: 0px 0px 10px 20px;
 }
@@ -48,4 +74,8 @@ body {
 .topnav a.active {
   background-color: #253f68;
   color: white;
+}
+
+.left-float {
+  float: left;
 }
